@@ -34,7 +34,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-            
+                <h1 class="bikash">Bikash Shah
+                </h1>
             </div>
         </div>
     </div>
