@@ -154,7 +154,7 @@
                     <span class="vl-innertext">or</span>
                 </div>
 
-                <div class="col">
+                <!-- <div class="col">
                     <a href="#" class="fb btn">
                         <i class="fa fa-facebook fa-fw"></i> Login with Facebook
                     </a>
@@ -164,16 +164,19 @@
                     <a href="#" class="google btn"><i class="fa fa-google fa-fw">
                         </i> Login with Google+
                     </a>
-                </div>
+                </div> -->
 
                 <div class="col">
                     <div class="hide-md-lg">
                         <p>Or sign in manually:</p>
                     </div>
-
-                    <input type="text" name="username" placeholder="Username" required>
-                    <input type="password" name="password" placeholder="Password" required>
-                    <input type="submit" value="Login">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Username" required>
+                        <input type="email" name="email" placeholder="UserEmail" required>
+                        <input type="password" name="password" placeholder="Password" required>
+                        <input type="submit" value="Register">
+                    </form>
+                    
                 </div>
 
             </div>
@@ -183,10 +186,10 @@
     <div class="bottom-container">
         <div class="row">
             <div class="col">
-                <a href="#" style="color:white" class="btn">Sign up</a>
+                <a href="login.php" style="color:white" class="btn">Sign In</a>
             </div>
             <div class="col">
-                <a href="#" style="color:white" class="btn">Forgot password?</a>
+                <a href="forget-password.php" style="color:white" class="btn">Forgot password?</a>
             </div>
         </div>
     </div>
